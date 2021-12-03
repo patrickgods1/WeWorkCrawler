@@ -1,0 +1,9 @@
+# Ignore byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Ignore all JSON files
+*.JSON
+
+# Ignore all text files
+*.txt
