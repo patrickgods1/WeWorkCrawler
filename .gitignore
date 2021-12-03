@@ -7,3 +7,4 @@ __pycache__/
 
 # Ignore all text files
 *.txt
+*.csv

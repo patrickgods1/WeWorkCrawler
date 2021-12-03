@@ -4,16 +4,14 @@ from scrapy import Request
 from scrapy.loader import ItemLoader
 import json
 import logging
-# from scrapy.spiders import XMLFeedSpider
+
 
 class scrapeWeWork(SitemapSpider):
     name = "scrapeWeWork"
     allowed_domains = ['wework.com', 'api.wework.cn', 'api.wework.hk']
     sitemap_urls = ['https://www.wework.com/sitemap.xml']
     sitemap_rules = [('/buildings/', 'parse')]
-    # namespaces = [('n', 'http://www.sitemaps.org/schemas/sitemap/0.9')]
-    # itertag = 'n:loc'
-    # iterator = 'xml'
+
 
     def __init__(self):
         SitemapSpider.__init__(self)
@@ -36,7 +34,7 @@ class scrapeWeWork(SitemapSpider):
 
 
     def parse(self, response):
-        # if not any(i in response.request.url for i in ('wework.cn', 'wework.hk')):
+        # Determine region and parse accordingly
         if 'wework.cn' in response.request.url:
             yield from self.parseCN(response, 'cn')
         elif 'wework.hk' in response.request.url:
@@ -44,7 +42,9 @@ class scrapeWeWork(SitemapSpider):
         else:
             yield from self.parseOther(response)
 
+
     def parseOther(self, response):
+        # Parse response and grab needed information
         script = response.xpath("//script[contains(., 'streetAddress')]/text()").extract_first()
         jsonResponse = json.loads(script)
         jsonResponse = jsonResponse['@graph'][2]
@@ -63,7 +63,6 @@ class scrapeWeWork(SitemapSpider):
         amenitiesJSON = jsonResponse['hasOfferCatalog']["itemListElement"]
         amenitiesList = set()
         for item in amenitiesJSON:
-            #• ‣
             amenityName = '•  ' + str(item['itemOffered']['name'])
             amenitiesList.add(amenityName)
         amenities = "\n".join(sorted(amenitiesList))
@@ -81,7 +80,6 @@ class scrapeWeWork(SitemapSpider):
             if transportType:
                 description = li.css('div.transportation-description::text').extract_first()
                 transportationList.add(f'•  {transportType} - {description}')
-                # transportationList.add(transportType)
         if transportationList:
             transportation = "\n".join(sorted(transportationList))
         else:
@@ -104,12 +102,12 @@ class scrapeWeWork(SitemapSpider):
         buildingItemLoader.add_value('URL', URL)
         yield buildingItemLoader.load_item()
 
+
     def parseCN(self, response, region):
+        # If CN webpage, construct the api URL and yield the request
         script = response.xpath("//script[contains(., 'streetAddress')]/text()").extract_first()
-        # logging.info(response.request.url.split('/')[-1].split('?')[0])
         buildingSlug = response.request.url.split('/')[-1].split('?')[0]
         apiURL = f'https://api.wework.{region}/api/v2/buildings/{buildingSlug}'
-        # header = {}
         header = {
             'Accept': 'application/json, text/plain, */*',
             'Accept-Encoding': 'gzip, deflate, br',
@@ -130,70 +128,10 @@ class scrapeWeWork(SitemapSpider):
             'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Mobile Safari/537.36'
             }
         yield Request(apiURL, headers=header, callback=self.parseAPI)
-        # jsonResponse = json.loads(script)
-        # apiURL = jsonResponse['@graph'][1]['itemListElement'][2]['item'].replace('https://www.wework.cn/building/', 'https://api.wework.cn/api/v2/buildings/')
-        # jsonResponse = jsonResponse['@graph'][2]
-        # buildingItemLoader = ItemLoader(item=WeWorkItem(), response=response)
-        # name = str(jsonResponse['name'])
-        # # brand = str(jsonResponse['brand'])
-        # addressJSON = jsonResponse['address']
-        # streetAddress = str(addressJSON['streetAddress'])
-        # country = str(addressJSON['addressCountry'])
-        # locality  = str(addressJSON['addressLocality'])
-        # if 'postalCode' in addressJSON:
-        #     postalCode  = str(addressJSON['postalCode'])
-        # else:
-        #     postalCode = ''
-        # telephone = str(jsonResponse['telephone'])
-        # geoJSON = jsonResponse['geo']
-        # latitude  = str(geoJSON['latitude'])
-        # longitude  = str(geoJSON['longitude'])
-        # amenitiesJSON = jsonResponse['hasOfferCatalog']["itemListElement"]
-        # amenitiesList = set()
-        # for item in amenitiesJSON:
-        #     #• ‣
-        #     amenityName = '•  ' + str(item['itemOffered']['name'])
-        #     amenitiesList.add(amenityName)
-        # amenities = "\n".join(sorted(amenitiesList))
-        # # rating = response.css('p.ray-text.rating__container-header > span::text').extract_first()
-        # # reviewCount = response.css('a.rating__link--header > u::text').extract_first()
-        # # if rating:
-        # #     reviewCount = reviewCount.split(' ')[0]
-        # # else:
-        # rating = 'No ratings'
-        # reviewCount = 'No reviews'
-        
-        # # transportationList = set()
-        # # for li in response.css('li.transportation'):
-        # #     transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
-        # #     if transportType:
-        # #         description = li.css('div.transportation-description::text').extract_first()
-        # #         transportationList.add(f'•  {transportType} - {description}')
-        # #         # transportationList.add(transportType)
-        # # if transportationList:
-        # #     transportation = "\n".join(sorted(transportationList))
-        # # else:
-        # transportation = ''
 
-        # URL = response.request.url
-        # buildingItemLoader.add_value('Name', name)
-        # # buildingItemLoader.add_value('Brand', brand)
-        # buildingItemLoader.add_value('Address', streetAddress)
-        # buildingItemLoader.add_value('Country', country)
-        # buildingItemLoader.add_value('Locality', locality)
-        # buildingItemLoader.add_value('postalCode', postalCode)
-        # buildingItemLoader.add_value('Telephone', telephone)
-        # buildingItemLoader.add_value('Latitude', latitude)
-        # buildingItemLoader.add_value('Longitude', longitude)
-        # buildingItemLoader.add_value('Amenities', str(amenities))
-        # buildingItemLoader.add_value('Rating', str(rating))
-        # buildingItemLoader.add_value('Reviews', str(reviewCount))
-        # buildingItemLoader.add_value('Transit', str(transportation))
-        # buildingItemLoader.add_value('URL', URL)
-        # yield buildingItemLoader.load_item()
 
     def parseAPI(self, response):
-        # logging.info(response.body)
+        # Parse the json response from the API call. Grab needed information.
         jsonResponse = json.loads(response.body)
         jsonResponse = jsonResponse['data']
         buildingItemLoader = ItemLoader(item=WeWorkItem(), response=response)
