@@ -24839,3 +24839,3074 @@ TypeError: the JSON object must be str, bytes or bytearray, not NoneType
  'spider_exceptions/TypeError': 1,
  'start_time': datetime.datetime(2021, 6, 5, 5, 50, 25, 290001)}
 2021-06-04 22:54:47,101 INFO: Spider closed (finished)
+2021-12-03 13:58:08,992 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-12-03 13:58:09,001 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-12-03 13:58:09,015 INFO: Enabled item pipelines:
+['WeWork.pipelines.MultiCSVItemPipeline']
+2021-12-03 13:58:09,016 INFO: Spider opened
+2021-12-03 13:58:09,021 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-12-03 13:58:09,023 INFO: Telnet console listening on 127.0.0.1:6023
+2021-12-03 13:58:09,614 INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2021-12-03 13:58:09,618 DEBUG: Crawled (200) <GET https://www.wework.com/robots.txt> (referer: None)
+2021-12-03 13:58:09,622 INFO: Closing spider (shutdown)
+2021-12-03 13:58:10,468 INFO: Received SIGINT twice, forcing unclean shutdown
+2021-12-03 13:58:20,882 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-12-03 13:58:20,887 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-12-03 13:58:20,893 INFO: Enabled item pipelines:
+['WeWork.pipelines.MultiCSVItemPipeline']
+2021-12-03 13:58:20,894 INFO: Spider opened
+2021-12-03 13:58:20,897 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-12-03 13:58:20,899 INFO: Telnet console listening on 127.0.0.1:6023
+2021-12-03 13:58:21,477 DEBUG: Crawled (200) <GET https://www.wework.com/robots.txt> (referer: None)
+2021-12-03 13:58:30,912 INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2021-12-03 13:58:30,913 INFO: Closing spider (shutdown)
+2021-12-03 13:58:37,209 DEBUG: Crawled (200) <GET https://www.wework.com/sitemap.xml> (referer: None)
+2021-12-03 13:58:37,329 INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 619,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 9195,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 16.43184,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2021, 12, 3, 21, 58, 37, 329232),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 11,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2021, 12, 3, 21, 58, 20, 897392)}
+2021-12-03 13:58:37,331 INFO: Spider closed (shutdown)
+2021-12-03 14:02:53,098 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-12-03 14:02:53,103 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-12-03 14:02:53,110 INFO: Enabled item pipelines:
+['WeWork.pipelines.MultiCSVItemPipeline']
+2021-12-03 14:02:53,110 INFO: Spider opened
+2021-12-03 14:02:53,114 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-12-03 14:02:53,116 INFO: Telnet console listening on 127.0.0.1:6023
+2021-12-03 14:02:53,696 DEBUG: Crawled (200) <GET https://www.wework.com/robots.txt> (referer: None)
+2021-12-03 14:03:02,119 DEBUG: Crawled (200) <GET https://www.wework.com/sitemap.xml> (referer: None)
+2021-12-03 14:03:03,257 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/10-york-rd--london> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:03,430 ERROR: Spider error processing <GET https://www.wework.com/buildings/10-york-rd--london> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:03,542 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/10-hazerem-st--tel-aviv--israel> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:03,699 ERROR: Spider error processing <GET https://www.wework.com/buildings/10-hazerem-st--tel-aviv--israel> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:03,899 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/10-east-40th-street--new-york-city--NY> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:04,044 DEBUG: Scraped from <200 https://www.wework.com/buildings/10-east-40th-street--new-york-city--NY>
+{'Address': ['10 East 40th Street New York NY 10016'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Mail & package handling\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Video conferencing'],
+ 'Country': ['US'],
+ 'Latitude': ['40.751773'],
+ 'Locality': ['New York'],
+ 'Longitude': ['-73.981049'],
+ 'Name': ['10 East 40th Street'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+16469789810'],
+ 'Transit': [''],
+ 'URL': ['https://www.wework.com/buildings/10-east-40th-street--new-york-city--NY'],
+ 'postalCode': ['10016']}
+2021-12-03 14:03:04,155 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/10-east-38th-st--new-york-city--NY> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:04,304 DEBUG: Scraped from <200 https://www.wework.com/buildings/10-east-38th-st--new-york-city--NY>
+{'Address': ['10 East 38th Street New York NY 10016'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Furnished spaces\n'
+               '•  Mail & package handling\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Video conferencing'],
+ 'Country': ['US'],
+ 'Latitude': ['40.750405'],
+ 'Locality': ['New York'],
+ 'Longitude': ['-73.981995'],
+ 'Name': ['10 East 38th St'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+16468596273'],
+ 'Transit': [''],
+ 'URL': ['https://www.wework.com/buildings/10-east-38th-st--new-york-city--NY'],
+ 'postalCode': ['10016']}
+2021-12-03 14:03:04,410 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/10-devonshire-square--london> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:04,554 DEBUG: Scraped from <200 https://www.wework.com/buildings/10-devonshire-square--london>
+{'Address': ['10 Devonshire Square London EC2M 4YP'],
+ 'Amenities': ['•  Barista\n'
+               '•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Honesty market\n'
+               '•  Mail & package handling\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['GB'],
+ 'Latitude': ['51.5168625'],
+ 'Locality': ['London'],
+ 'Longitude': ['-0.0789509'],
+ 'Name': ['10 Devonshire Square'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+442036957895'],
+ 'Transit': [''],
+ 'URL': ['https://www.wework.com/buildings/10-devonshire-square--london'],
+ 'postalCode': ['EC2M 4YP']}
+2021-12-03 14:03:04,746 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/109-north-bridge-rd--singapore> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:04,846 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/106-boulevard-haussmann--paris> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:04,884 ERROR: Spider error processing <GET https://www.wework.com/buildings/109-north-bridge-rd--singapore> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:04,988 ERROR: Spider error processing <GET https://www.wework.com/buildings/106-boulevard-haussmann--paris> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:05,627 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/1010-sainte-catherine-ouest--montreal--QC> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:05,641 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/101-n-1st-ave--phoenix> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:05,781 ERROR: Spider error processing <GET https://www.wework.com/buildings/1010-sainte-catherine-ouest--montreal--QC> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:05,820 ERROR: Spider error processing <GET https://www.wework.com/buildings/101-n-1st-ave--phoenix> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:05,917 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/1010-n-hancock-st--philadelphia--PA> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:06,067 ERROR: Spider error processing <GET https://www.wework.com/buildings/1010-n-hancock-st--philadelphia--PA> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:06,298 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/100-university-ave--toronto> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:06,438 ERROR: Spider error processing <GET https://www.wework.com/buildings/100-university-ave--toronto> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:06,684 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/100-summer-st--boston--MA> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:06,823 ERROR: Spider error processing <GET https://www.wework.com/buildings/100-summer-st--boston--MA> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:07,082 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/100-harris-st--sydney--NSW> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:07,225 ERROR: Spider error processing <GET https://www.wework.com/buildings/100-harris-st--sydney--NSW> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:07,292 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/1003-e-4th-pl--los-angeles--CA> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:07,433 DEBUG: Scraped from <200 https://www.wework.com/buildings/1003-e-4th-pl--los-angeles--CA>
+{'Address': ['1003 E. 4th Place Los Angeles CA 90013'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['US'],
+ 'Latitude': ['34.0421463'],
+ 'Locality': ['Los Angeles'],
+ 'Longitude': ['-118.2334367'],
+ 'Name': ['1003 E 4th Pl'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+12132048394'],
+ 'Transit': [''],
+ 'URL': ['https://www.wework.com/buildings/1003-e-4th-pl--los-angeles--CA'],
+ 'postalCode': ['90013']}
+2021-12-03 14:03:07,587 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/1001-woodward-ave--detroit--MI> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:07,731 ERROR: Spider error processing <GET https://www.wework.com/buildings/1001-woodward-ave--detroit--MI> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:08,158 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/yuexiujinrong?lang=en-us> from <GET https://www.wework.com/buildings/yuexiu-financial-building--guangzhou>
+2021-12-03 14:03:08,210 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/zenia--mumbai> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:08,277 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/1725-hughes-landing-boulevard--houston--TX> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:08,289 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/wuningnanlu?lang=en-us> from <GET https://www.wework.com/buildings/yueshang-plaza--shanghai--31>
+2021-12-03 14:03:08,366 ERROR: Spider error processing <GET https://www.wework.com/buildings/zenia--mumbai> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:08,415 ERROR: Spider error processing <GET https://www.wework.com/buildings/1725-hughes-landing-boulevard--houston--TX> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:08,642 DEBUG: Redirecting (301) to <GET https://wework.hk/en-US/locations/yf-life-tower> from <GET https://www.wework.com/buildings/yf-life-tower--hong-kong>
+2021-12-03 14:03:09,264 DEBUG: Crawled (200) <GET https://www.wework.cn/robots.txt> (referer: None)
+2021-12-03 14:03:09,383 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/yeouido-station--seoul> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:09,531 ERROR: Spider error processing <GET https://www.wework.com/buildings/yeouido-station--seoul> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:09,604 DEBUG: Crawled (200) <GET https://wework.hk/robots.txt> (referer: None)
+2021-12-03 14:03:09,938 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/xintiandixinli?lang=en-us> from <GET https://www.wework.com/buildings/xintiandi-xinli--shanghai--31>
+2021-12-03 14:03:10,111 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/yeoksam-station-ii--seoul> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:10,117 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/yeoksam-station--seoul> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:10,254 ERROR: Spider error processing <GET https://www.wework.com/buildings/yeoksam-station-ii--seoul> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:10,290 ERROR: Spider error processing <GET https://www.wework.com/buildings/yeoksam-station--seoul> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:10,499 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/shijiemaoyidasha?lang=en-us> from <GET https://www.wework.com/buildings/world-trade-tower--shanghai--31>
+2021-12-03 14:03:10,943 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/wonderful-world-commercial-plaza?lang=en-us> from <GET https://www.wework.com/buildings/wonderful-world-commercial-plaza--beijing>
+2021-12-03 14:03:10,965 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/wynwood-garage--miami--FL> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:11,113 ERROR: Spider error processing <GET https://www.wework.com/buildings/wynwood-garage--miami--FL> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:11,716 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/williams-square--dallas-fort-worth--TX> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:11,824 INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2021-12-03 14:03:11,825 INFO: Closing spider (shutdown)
+2021-12-03 14:03:11,872 ERROR: Spider error processing <GET https://www.wework.com/buildings/williams-square--dallas-fort-worth--TX> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:12,267 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/wework-place--tampa--FL> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:12,403 ERROR: Spider error processing <GET https://www.wework.com/buildings/wework-place--tampa--FL> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:12,444 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/white-square--moscow> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:03:12,587 ERROR: Spider error processing <GET https://www.wework.com/buildings/white-square--moscow> (referer: https://www.wework.com/sitemap.xml)
+Traceback (most recent call last):
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Pat\anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 43, in parse
+    yield from self.parseOther(response)
+  File "C:\Users\Pat\Desktop\Projects\WeWorkCrawler\WeWork\spiders\WeWorkSpider.py", line 79, in parseOther
+    transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+AttributeError: 'NoneType' object has no attribute 'replace'
+2021-12-03 14:03:12,712 INFO: Received SIGINT twice, forcing unclean shutdown
+2021-12-03 14:03:12,714 DEBUG: Retrying <GET https://www.wework.com/buildings/westview--austin--TX> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2021-12-03 14:03:12,716 DEBUG: Retrying <GET https://www.wework.cn/building/wuningnanlu?lang=en-us> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2021-12-03 14:07:35,123 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-12-03 14:07:35,130 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-12-03 14:07:35,136 INFO: Enabled item pipelines:
+['WeWork.pipelines.MultiCSVItemPipeline']
+2021-12-03 14:07:35,136 INFO: Spider opened
+2021-12-03 14:07:35,140 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-12-03 14:07:35,141 INFO: Telnet console listening on 127.0.0.1:6023
+2021-12-03 14:07:35,729 DEBUG: Crawled (200) <GET https://www.wework.com/robots.txt> (referer: None)
+2021-12-03 14:07:43,195 DEBUG: Crawled (200) <GET https://www.wework.com/sitemap.xml> (referer: None)
+2021-12-03 14:07:44,298 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/10-york-rd--london> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:44,452 DEBUG: Scraped from <200 https://www.wework.com/buildings/10-york-rd--london>
+{'Address': ['10 York Rd London SE1 7ND'],
+ 'Amenities': ['•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Food hall \n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Screening room\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['GB'],
+ 'Latitude': ['51.5037052'],
+ 'Locality': ['London'],
+ 'Longitude': ['-0.1165341'],
+ 'Name': ['10 York Rd'],
+ 'Rating': ['4.5'],
+ 'Reviews': ['39'],
+ 'Telephone': ['+442036957895'],
+ 'Transit': ['•  Metro - Waterloo Station - 1 minute walk, Embankment - 10 '
+             'minute walk, Charing Cross - 10 minute walk'],
+ 'URL': ['https://www.wework.com/buildings/10-york-rd--london'],
+ 'postalCode': ['SE1 7ND']}
+2021-12-03 14:07:44,605 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/10-hazerem-st--tel-aviv--israel> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:44,761 DEBUG: Scraped from <200 https://www.wework.com/buildings/10-hazerem-st--tel-aviv--israel>
+{'Address': ['7 HaPelech Street Tel Aviv 6816727'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Creator Lab\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['IL'],
+ 'Latitude': ['32.0502687'],
+ 'Locality': ['Tel Aviv'],
+ 'Longitude': ['34.7666678'],
+ 'Name': ['10 HaZerem St'],
+ 'Rating': ['4.5'],
+ 'Reviews': ['52'],
+ 'Telephone': ['+9723053'],
+ 'Transit': ['•  Bike - Bike storage available.\n'
+             '•  Bus - Bus lines 72, 1, 40 - 10 min walk from HaZerem.  \n'
+             '•  Freeway - Kibbutz Galuyot Rd.\n'
+             '•  Metro - Tel Aviv HaHagana Train Station'],
+ 'URL': ['https://www.wework.com/buildings/10-hazerem-st--tel-aviv--israel'],
+ 'postalCode': ['6816727']}
+2021-12-03 14:07:44,947 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/10-east-40th-street--new-york-city--NY> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:45,087 DEBUG: Scraped from <200 https://www.wework.com/buildings/10-east-40th-street--new-york-city--NY>
+{'Address': ['10 East 40th Street New York NY 10016'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Mail & package handling\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Video conferencing'],
+ 'Country': ['US'],
+ 'Latitude': ['40.751773'],
+ 'Locality': ['New York'],
+ 'Longitude': ['-73.981049'],
+ 'Name': ['10 East 40th Street'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+16469789810'],
+ 'Transit': [''],
+ 'URL': ['https://www.wework.com/buildings/10-east-40th-street--new-york-city--NY'],
+ 'postalCode': ['10016']}
+2021-12-03 14:07:45,239 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/10-east-38th-st--new-york-city--NY> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:45,375 DEBUG: Scraped from <200 https://www.wework.com/buildings/10-east-38th-st--new-york-city--NY>
+{'Address': ['10 East 38th Street New York NY 10016'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Furnished spaces\n'
+               '•  Mail & package handling\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Video conferencing'],
+ 'Country': ['US'],
+ 'Latitude': ['40.750405'],
+ 'Locality': ['New York'],
+ 'Longitude': ['-73.981995'],
+ 'Name': ['10 East 38th St'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+16468596273'],
+ 'Transit': [''],
+ 'URL': ['https://www.wework.com/buildings/10-east-38th-st--new-york-city--NY'],
+ 'postalCode': ['10016']}
+2021-12-03 14:07:45,381 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/10-devonshire-square--london> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:45,528 DEBUG: Scraped from <200 https://www.wework.com/buildings/10-devonshire-square--london>
+{'Address': ['10 Devonshire Square London EC2M 4YP'],
+ 'Amenities': ['•  Barista\n'
+               '•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Honesty market\n'
+               '•  Mail & package handling\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['GB'],
+ 'Latitude': ['51.5168625'],
+ 'Locality': ['London'],
+ 'Longitude': ['-0.0789509'],
+ 'Name': ['10 Devonshire Square'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+442036957895'],
+ 'Transit': [''],
+ 'URL': ['https://www.wework.com/buildings/10-devonshire-square--london'],
+ 'postalCode': ['EC2M 4YP']}
+2021-12-03 14:07:45,804 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/106-boulevard-haussmann--paris> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:45,809 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/109-north-bridge-rd--singapore> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:45,947 DEBUG: Scraped from <200 https://www.wework.com/buildings/106-boulevard-haussmann--paris>
+{'Address': ['106 Boulevard Haussmann Paris 75008'],
+ 'Amenities': ['•  Barista\n'
+               '•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Showers\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['FR'],
+ 'Latitude': ['48.8747243'],
+ 'Locality': ['Paris'],
+ 'Longitude': ['2.3193191'],
+ 'Name': ['106 Boulevard Haussmann'],
+ 'Rating': ['4.6'],
+ 'Reviews': ['2'],
+ 'Telephone': ['+33186652533'],
+ 'Transit': ['•  Bus - 20, 28, 32, 80, 43 Bus Routes (1 minute walk)\n'
+             '•  Metro - Line 9 Subway at Saint-Augustin (1 minute walk) | '
+             'Saint-Lazare Train Station (3 minute walk)'],
+ 'URL': ['https://www.wework.com/buildings/106-boulevard-haussmann--paris'],
+ 'postalCode': ['75008']}
+2021-12-03 14:07:45,994 DEBUG: Scraped from <200 https://www.wework.com/buildings/109-north-bridge-rd--singapore>
+{'Address': ['109 North Bridge Road #05-21 Singapore 179097'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Fitness center\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['SG'],
+ 'Latitude': ['1.291578'],
+ 'Locality': ['Singapore'],
+ 'Longitude': ['103.849799'],
+ 'Name': ['109 North Bridge Rd'],
+ 'Rating': ['4.3'],
+ 'Reviews': ['15'],
+ 'Telephone': ['+6566816768'],
+ 'Transit': ['•  Metro -  City Hall MRT (5 minute walk)'],
+ 'URL': ['https://www.wework.com/buildings/109-north-bridge-rd--singapore'],
+ 'postalCode': ['179097']}
+2021-12-03 14:07:46,348 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/101-n-1st-ave--phoenix> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:46,504 DEBUG: Scraped from <200 https://www.wework.com/buildings/101-n-1st-ave--phoenix>
+{'Address': ['101 North 1st Ave Suite 800 Phoenix AZ 85003'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['33.449853'],
+ 'Locality': ['Phoenix'],
+ 'Longitude': ['-112.0747033'],
+ 'Name': ['101 N 1st Ave'],
+ 'Rating': ['5.0'],
+ 'Reviews': ['2'],
+ 'Telephone': ['+16024919587'],
+ 'Transit': ['•  Bike - Grid Bike Sharing Station P110 Van Buren St & 1st Ave '
+             '(2 blocks away)\n'
+             '•  Bus - 8, 514, 520, 521, 522, 531, 533, 535, 541, 542, 562, '
+             '563, 571, 573, 575 at Washington St & 3rd Av (1 block away)\n'
+             '•  Freeway - I-10 (1.3 miles away)'],
+ 'URL': ['https://www.wework.com/buildings/101-n-1st-ave--phoenix'],
+ 'postalCode': ['85003']}
+2021-12-03 14:07:46,513 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/1010-sainte-catherine-ouest--montreal--QC> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:46,661 DEBUG: Scraped from <200 https://www.wework.com/buildings/1010-sainte-catherine-ouest--montreal--QC>
+{'Address': ['1010 Rue Sainte-Catherine Ouest Suite 200 Montreal QC H3B 5L1'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['CA'],
+ 'Latitude': ['45.500249'],
+ 'Locality': ['Montreal'],
+ 'Longitude': ['-73.572414'],
+ 'Name': ['1010 Sainte-Catherine Ouest'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+15144469404'],
+ 'Transit': ['•  Bike - Station de vélo Bixi 6072 (2 blocks away)\n'
+             '•  Bus - 420 at Metcalfe / Sainte-Catherine, 120 at Peel / '
+             'Sainte-Catherine (1 block away)\n'
+             '•  Freeway - 915 Rte 112 (.2 miles away)\n'
+             '•  Parking - AutoParc Stanley (2 blocks away)'],
+ 'URL': ['https://www.wework.com/buildings/1010-sainte-catherine-ouest--montreal--QC'],
+ 'postalCode': ['H3B 5L1']}
+2021-12-03 14:07:46,919 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/1010-n-hancock-st--philadelphia--PA> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:47,069 DEBUG: Scraped from <200 https://www.wework.com/buildings/1010-n-hancock-st--philadelphia--PA>
+{'Address': ['1010 N Hancock St Philadelphia PA 19123'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['39.9657327'],
+ 'Locality': ['Philadelphia'],
+ 'Longitude': ['-75.1397396'],
+ 'Name': ['1010 N Hancock St'],
+ 'Rating': ['4.5'],
+ 'Reviews': ['33'],
+ 'Telephone': ['+12672773815'],
+ 'Transit': ['•  Bike - Storage available. There is an Indego Bike Share '
+             'station on the corner of 2nd and Germantown Av\n'
+             '•  Freeway - 2nd Street (runs into Old City) and I-95\n'
+             '•  Metro - Market-Frankford Line (Blue Line) on Girard Stop'],
+ 'URL': ['https://www.wework.com/buildings/1010-n-hancock-st--philadelphia--PA'],
+ 'postalCode': ['19123']}
+2021-12-03 14:07:47,196 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/100-summer-st--boston--MA> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:47,350 DEBUG: Scraped from <200 https://www.wework.com/buildings/100-summer-st--boston--MA>
+{'Address': ['100 Summer Street Boston MA 02110'],
+ 'Amenities': ['•  Assembly hall\n'
+               '•  Barista\n'
+               '•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Electric vehicle charging stations\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Fitness center\n'
+               '•  Honesty market\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['42.3538143'],
+ 'Locality': ['Boston'],
+ 'Longitude': ['-71.0595797'],
+ 'Name': ['100 Summer St'],
+ 'Rating': ['4.0'],
+ 'Reviews': ['0'],
+ 'Telephone': ['+16172094711'],
+ 'Transit': ['•  Bus - 553 Bus at Franklin and Federal Street (2 minute walk)\n'
+             '•  Metro - Red Line at Downtown Crossing (4 minute walk)'],
+ 'URL': ['https://www.wework.com/buildings/100-summer-st--boston--MA'],
+ 'postalCode': ['02110']}
+2021-12-03 14:07:47,564 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/100-university-ave--toronto> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:47,708 DEBUG: Scraped from <200 https://www.wework.com/buildings/100-university-ave--toronto>
+{'Address': ['100 University Avenue Toronto ON M5J 1V6'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Honesty market\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['CA'],
+ 'Latitude': ['43.6470415'],
+ 'Locality': ['Toronto'],
+ 'Longitude': ['-79.3849415'],
+ 'Name': ['100 University Ave'],
+ 'Rating': ['4.0'],
+ 'Reviews': ['4'],
+ 'Telephone': ['+16479523263'],
+ 'Transit': ['•  Bike - Bike Share Toronto at Wellington and Simcoe St (3 '
+             'blocks away)\n'
+             '•  Bus - 141, 143, 144, 145 at Adelaide St West at Simcoe St (4 '
+             'blocks away)\n'
+             '•  Freeway - Gardiner Expy (3.5km away) \n'
+             '•  Metro - 1 Subway at St Andrew (1 block away) | 304, 503, 504, '
+             '514 at King St West Light Rail Station (1 block away) | BR, KI, '
+             'LE, LW, MI, RH, ST trains at Union Station (4 blocks away)\n'
+             '•  Parking - 70 University Ave Lot #372 (1 block away)'],
+ 'URL': ['https://www.wework.com/buildings/100-university-ave--toronto'],
+ 'postalCode': ['M5J 1V6']}
+2021-12-03 14:07:47,762 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/100-harris-st--sydney--NSW> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:47,913 DEBUG: Scraped from <200 https://www.wework.com/buildings/100-harris-st--sydney--NSW>
+{'Address': ['100 Harris St Sydney NSW 2009'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['AU'],
+ 'Latitude': ['-33.8686254'],
+ 'Locality': ['Sydney'],
+ 'Longitude': ['151.1933352'],
+ 'Name': ['100 Harris St'],
+ 'Rating': ['4.6'],
+ 'Reviews': ['51'],
+ 'Telephone': ['+61283176930'],
+ 'Transit': ['•  Bike - Storage available\n'
+             '•  Bus - Harris St. near John St. - Bus Route 389\n'
+             '•  Ferry - Pyrmont Bay Wharf\n'
+             '•  Freeway - Western Distributor highway: access to A4 / A40 / '
+             'Western Distributor\n'
+             '•  Metro - The Star Light Rail Station - L1 Dulwich Hill Line'],
+ 'URL': ['https://www.wework.com/buildings/100-harris-st--sydney--NSW'],
+ 'postalCode': ['2009']}
+2021-12-03 14:07:47,951 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/1003-e-4th-pl--los-angeles--CA> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:48,097 DEBUG: Scraped from <200 https://www.wework.com/buildings/1003-e-4th-pl--los-angeles--CA>
+{'Address': ['1003 E. 4th Place Los Angeles CA 90013'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['US'],
+ 'Latitude': ['34.0421463'],
+ 'Locality': ['Los Angeles'],
+ 'Longitude': ['-118.2334367'],
+ 'Name': ['1003 E 4th Pl'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+12132048394'],
+ 'Transit': [''],
+ 'URL': ['https://www.wework.com/buildings/1003-e-4th-pl--los-angeles--CA'],
+ 'postalCode': ['90013']}
+2021-12-03 14:07:48,233 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/1001-woodward-ave--detroit--MI> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:48,379 DEBUG: Scraped from <200 https://www.wework.com/buildings/1001-woodward-ave--detroit--MI>
+{'Address': ['1001 Woodward Ave Detroit MI 48226'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recording studio \n'
+               '•  Recreational games\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['42.3320134'],
+ 'Locality': ['Detroit'],
+ 'Longitude': ['-83.0476329'],
+ 'Name': ['1001 Woodward Ave'],
+ 'Rating': ['4.7'],
+ 'Reviews': ['22'],
+ 'Telephone': ['+13133065485'],
+ 'Transit': ['•  Bike - Bike storage available\n'
+             '•  Freeway - Woodward Ave, Jefferson Ave \n'
+             '•  Metro - The Q line stops right in front of the building.\n'
+             '•  Parking - Parking available'],
+ 'URL': ['https://www.wework.com/buildings/1001-woodward-ave--detroit--MI'],
+ 'postalCode': ['48226']}
+2021-12-03 14:07:48,743 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/yuexiujinrong?lang=en-us> from <GET https://www.wework.com/buildings/yuexiu-financial-building--guangzhou>
+2021-12-03 14:07:48,783 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/1725-hughes-landing-boulevard--houston--TX> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:48,925 DEBUG: Scraped from <200 https://www.wework.com/buildings/1725-hughes-landing-boulevard--houston--TX>
+{'Address': ['1725 Hughes Landing Boulevard The Woodlands TX 77380'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['US'],
+ 'Latitude': ['30.171973'],
+ 'Locality': ['The Woodlands'],
+ 'Longitude': ['-95.468311'],
+ 'Name': ['1725 Hughes Landing Boulevard'],
+ 'Rating': ['4.5'],
+ 'Reviews': ['4'],
+ 'Telephone': ['+12812054640'],
+ 'Transit': ['•  Bike - ECO EZ-Riders (.8 miles away)\n'
+             '•  Bus - 099 at Paramatta Ln @ Imperial Valley Dr (12 miles '
+             'away)\n'
+             '•  Freeway - I-45 (4 miles away)'],
+ 'URL': ['https://www.wework.com/buildings/1725-hughes-landing-boulevard--houston--TX'],
+ 'postalCode': ['77380']}
+2021-12-03 14:07:49,047 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/wuningnanlu?lang=en-us> from <GET https://www.wework.com/buildings/yueshang-plaza--shanghai--31>
+2021-12-03 14:07:49,142 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/zenia--mumbai> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:49,282 DEBUG: Scraped from <200 https://www.wework.com/buildings/zenia--mumbai>
+{'Address': ['Zenia Building, Hiranandani Circle, Hiranandani Business Park, '
+             'Off Ghodbunder Road, Thane Mumbai MH 400607'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Food hall \n'
+               '•  Honesty market\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['IN'],
+ 'Latitude': ['19.254507'],
+ 'Locality': ['Mumbai'],
+ 'Longitude': ['72.9815152'],
+ 'Name': ['Zenia'],
+ 'Rating': ['4.4'],
+ 'Reviews': ['34'],
+ 'Telephone': ['+911800123365365'],
+ 'Transit': ['•  Bus - Hiranandani Stop (2 minute walk) '],
+ 'URL': ['https://www.wework.com/buildings/zenia--mumbai'],
+ 'postalCode': ['400607']}
+2021-12-03 14:07:49,378 DEBUG: Redirecting (301) to <GET https://wework.hk/en-US/locations/yf-life-tower> from <GET https://www.wework.com/buildings/yf-life-tower--hong-kong>
+2021-12-03 14:07:49,737 DEBUG: Crawled (200) <GET https://www.wework.cn/robots.txt> (referer: None)
+2021-12-03 14:07:50,296 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/yeouido-station--seoul> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:50,377 DEBUG: Crawled (200) <GET https://wework.hk/robots.txt> (referer: None)
+2021-12-03 14:07:50,434 DEBUG: Scraped from <200 https://www.wework.com/buildings/yeouido-station--seoul>
+{'Address': ['20F, 83, Uisadang-daero Yeongdeungpo-gu Seoul 07325'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Honesty market\n'
+               '•  Mail & package handling\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['KR'],
+ 'Latitude': ['37.5233278'],
+ 'Locality': ['Seoul'],
+ 'Longitude': ['126.9234386'],
+ 'Name': ['Yeouido Station'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+8225212824'],
+ 'Transit': ['•  Freeway - Uisadaing-daero\n'
+             '•  Metro - Close to Yeouido Station Line 5 & Line 9 and Yeouido '
+             'transit Center'],
+ 'URL': ['https://www.wework.com/buildings/yeouido-station--seoul'],
+ 'postalCode': ['07325']}
+2021-12-03 14:07:50,614 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/xintiandixinli?lang=en-us> from <GET https://www.wework.com/buildings/xintiandi-xinli--shanghai--31>
+2021-12-03 14:07:50,684 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/yeoksam-station-ii--seoul> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:50,826 DEBUG: Scraped from <200 https://www.wework.com/buildings/yeoksam-station-ii--seoul>
+{'Address': ['1F, 14, Teheran-ro, 26-gil Gangnam-gu Seoul 06236'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['KR'],
+ 'Latitude': ['37.4992135'],
+ 'Locality': ['Seoul'],
+ 'Longitude': ['127.0359171'],
+ 'Name': ['Yeoksam Station II'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+8225213570'],
+ 'Transit': ['•  Freeway - Teheran-ro \n'
+             '•  Metro - Subway Line 2 at Yeoksam Station (4 minute walk)'],
+ 'URL': ['https://www.wework.com/buildings/yeoksam-station-ii--seoul'],
+ 'postalCode': ['06236']}
+2021-12-03 14:07:51,113 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/shijiemaoyidasha?lang=en-us> from <GET https://www.wework.com/buildings/world-trade-tower--shanghai--31>
+2021-12-03 14:07:51,187 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/yeoksam-station--seoul> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:51,285 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/wonderful-world-commercial-plaza?lang=en-us> from <GET https://www.wework.com/buildings/wonderful-world-commercial-plaza--beijing>
+2021-12-03 14:07:51,329 DEBUG: Scraped from <200 https://www.wework.com/buildings/yeoksam-station--seoul>
+{'Address': ['3F, 142 Teheran-ro Gangnam-gu Seoul 06236'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               '•  Materials library\n'
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['KR'],
+ 'Latitude': ['37.4996847'],
+ 'Locality': ['Seoul'],
+ 'Longitude': ['127.0349215'],
+ 'Name': ['Yeoksam Station'],
+ 'Rating': ['4.4'],
+ 'Reviews': ['22'],
+ 'Telephone': ['+8225219025'],
+ 'Transit': ['•  Metro - Take Subway line 2, Yeoksam Station exit #3'],
+ 'URL': ['https://www.wework.com/buildings/yeoksam-station--seoul'],
+ 'postalCode': ['06236']}
+2021-12-03 14:07:51,533 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/wynwood-garage--miami--FL> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:51,686 DEBUG: Scraped from <200 https://www.wework.com/buildings/wynwood-garage--miami--FL>
+{'Address': ['360 NW 27th Street Miami FL 33127'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Electric vehicle charging stations\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['25.801999'],
+ 'Locality': ['Miami'],
+ 'Longitude': ['-80.201827'],
+ 'Name': ['Wynwood Garage'],
+ 'Rating': ['4.3'],
+ 'Reviews': ['8'],
+ 'Telephone': ['+17862200903'],
+ 'Transit': ['•  Freeway - I-95 (5 minute drive)'],
+ 'URL': ['https://www.wework.com/buildings/wynwood-garage--miami--FL'],
+ 'postalCode': ['33127']}
+2021-12-03 14:07:52,172 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/williams-square--dallas-fort-worth--TX> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:52,323 DEBUG: Scraped from <200 https://www.wework.com/buildings/williams-square--dallas-fort-worth--TX>
+{'Address': ["5215 North O'Connor Boulevard Irving TX 75039"],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Electric vehicle charging stations\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Fitness center\n'
+               '•  Food hall \n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  WeMRKT\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['32.8710978'],
+ 'Locality': ['Irving'],
+ 'Longitude': ['-96.9388135'],
+ 'Name': ['Williams Square'],
+ 'Rating': ['4.1'],
+ 'Reviews': ['7'],
+ 'Telephone': ['+19724743695'],
+ 'Transit': ["•  Bus - 507 at O'Connor/Lake Carolyn \n"
+             '•  Freeway - 114 (0.6 miles away)\n'
+             '•  Parking - SP+ Parking (onsite)'],
+ 'URL': ['https://www.wework.com/buildings/williams-square--dallas-fort-worth--TX'],
+ 'postalCode': ['75039']}
+2021-12-03 14:07:52,436 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/white-square--moscow> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:52,576 DEBUG: Scraped from <200 https://www.wework.com/buildings/white-square--moscow>
+{'Address': ['Butyrsky Val Ulitsa, 10 Moscow MOS 125047'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['RU'],
+ 'Latitude': ['55.778461'],
+ 'Locality': ['Moscow'],
+ 'Longitude': ['37.585925'],
+ 'Name': ['White Square'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+74951181605'],
+ 'Transit': ['•  Freeway - Leningradsky Avenue\n'
+             '•  Metro - Subway Line 5 at Belorusskaya Station ( 2 minute '
+             'walk) | Subway Line 2 at Belorusskaya Station (4 minute walk)'],
+ 'URL': ['https://www.wework.com/buildings/white-square--moscow'],
+ 'postalCode': ['125047']}
+2021-12-03 14:07:52,697 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/wework-place--tampa--FL> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:52,848 DEBUG: Scraped from <200 https://www.wework.com/buildings/wework-place--tampa--FL>
+{'Address': ['501 East Kennedy Boulevard Tampa FL 33602'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Fitness center\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['27.948233'],
+ 'Locality': ['Tampa'],
+ 'Longitude': ['-82.456084'],
+ 'Name': ['WeWork Place'],
+ 'Rating': ['5.0'],
+ 'Reviews': ['6'],
+ 'Telephone': ['+18132806130'],
+ 'Transit': ['•  Freeway - Conveniently located just off Kennedy Blvd | Tampa '
+             'International Airport (10 minute drive)\n'
+             '•  Parking - Attached parking garage with 1.3 parking spaces per '
+             '1,000 RSF (additional fee)'],
+ 'URL': ['https://www.wework.com/buildings/wework-place--tampa--FL'],
+ 'postalCode': ['33602']}
+2021-12-03 14:07:52,952 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/weteringschans-165--amsterdam> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:53,109 DEBUG: Scraped from <200 https://www.wework.com/buildings/weteringschans-165--amsterdam>
+{'Address': ['Weteringschans 165 C Amsterdam Netherlands 1017XD'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['NL'],
+ 'Latitude': ['52.359741'],
+ 'Locality': ['Amsterdam'],
+ 'Longitude': ['4.8917851'],
+ 'Name': ['Weteringschans 165'],
+ 'Rating': ['4.2'],
+ 'Reviews': ['39'],
+ 'Telephone': ['+31208081143'],
+ 'Transit': ['•  Ferry - Central Station\n'
+             '•  Metro - Weesperplein: 50 or 54 (20 minute walk)\n'
+             '•  Parking - Apcoa, located at Eerste van der Helststraat 6 '
+             '(€2.50 per 30 minutes, daily max is €42) '],
+ 'URL': ['https://www.wework.com/buildings/weteringschans-165--amsterdam'],
+ 'postalCode': ['1017XD']}
+2021-12-03 14:07:53,341 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/westview--austin--TX> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:53,485 DEBUG: Scraped from <200 https://www.wework.com/buildings/westview--austin--TX>
+{'Address': ['316 West 12th Street Austin TX 78701'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Fitness center\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  WeMRKT\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['30.2750363'],
+ 'Locality': ['Austin'],
+ 'Longitude': ['-97.7434527'],
+ 'Name': ['Westview'],
+ 'Rating': ['4.0'],
+ 'Reviews': ['4'],
+ 'Telephone': ['+15122564037'],
+ 'Transit': ['•  Bike - B-Cycle at 1090 Congress Ave (3 blocks away)\n'
+             '•  Bus - 105, 980, 981, 982, 985, 987, 990 at Lavaca/12th (less '
+             'than 1 block away)\n'
+             '•  Freeway - I-35 (1 mile away)\n'
+             '•  Metro - 550 at Downtown Station (1 mile away)\n'
+             '•  Parking - 1108 Lavaca St Parking (less than 1 block away)'],
+ 'URL': ['https://www.wework.com/buildings/westview--austin--TX'],
+ 'postalCode': ['78701']}
+2021-12-03 14:07:53,622 DEBUG: Crawled (200) <GET https://www.wework.cn/building/yuexiujinrong?lang=en-us> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:54,171 DEBUG: Crawled (200) <GET https://wework.hk/en-US/locations/yf-life-tower> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:54,223 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/wells-fargo-center--denver--CO> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:54,373 DEBUG: Scraped from <200 https://www.wework.com/buildings/wells-fargo-center--denver--CO>
+{'Address': ['1700 Lincoln Street 17th Floor Denver CO 80203'],
+ 'Amenities': ['•  Assembly hall\n'
+               '•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Fitness center\n'
+               '•  Honesty market\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['39.7434605'],
+ 'Locality': ['Denver'],
+ 'Longitude': ['-104.9853874'],
+ 'Name': ['Wells Fargo Center'],
+ 'Rating': ['4.2'],
+ 'Reviews': ['40'],
+ 'Telephone': ['+13039007406'],
+ 'Transit': ['•  Bike - B-cycle at Glenarm Station (5 blocks away)\n'
+             '•  Bus - Metroride at Lincoln St/E 17th Ave (onsite)\n'
+             '•  Freeway - I70 at Lincoln St (2 blocks away)\n'
+             '•  Parking - LAZ Parking at Lincoln St/E 17th Ave (onsite)'],
+ 'URL': ['https://www.wework.com/buildings/wells-fargo-center--denver--CO'],
+ 'postalCode': ['80203']}
+2021-12-03 14:07:54,508 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/weihailu?lang=en-us> from <GET https://www.wework.com/buildings/weihai-lu--shanghai--31>
+2021-12-03 14:07:54,551 DEBUG: Crawled (200) <GET https://www.wework.cn/building/wuningnanlu?lang=en-us> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:55,076 DEBUG: Crawled (404) <GET https://api.wework.cn/robots.txt> (referer: None)
+2021-12-03 14:07:55,077 DEBUG: Rule at line 1 without any user agent to enforce it on.
+2021-12-03 14:07:55,307 DEBUG: Crawled (200) <GET https://api.wework.cn/api/v2/buildings/yuexiujinrong> (referer: https://www.wework.cn/)
+2021-12-03 14:07:55,317 DEBUG: Crawled (200) <GET https://www.wework.cn/building/xintiandixinli?lang=en-us> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:55,410 DEBUG: Crawled (404) <GET https://api.wework.hk/robots.txt> (referer: None)
+2021-12-03 14:07:55,411 DEBUG: Rule at line 1 without any user agent to enforce it on.
+2021-12-03 14:07:55,420 DEBUG: Scraped from <200 https://api.wework.cn/api/v2/buildings/yuexiujinrong>
+{'Address': ['28 Zhujiang E Rd, Tianhe Guangzhou, Guangdong Guangzhou'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference Rooms\n'
+               '•  Enhanced cleaning services\n'
+               '•  Hands-free dispensers\n'
+               '•  High-speed Wi-Fi\n'
+               '•  Meeting rooms\n'
+               '•  Micro-Roasted Coffee\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional & social events\n'
+               '•  Unique common areas'],
+ 'Country': ['CN'],
+ 'Latitude': ['23.121386'],
+ 'Locality': ['Guangzhou'],
+ 'Longitude': ['113.331558'],
+ 'Name': ['Yuexiu Financial Building'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': [''],
+ 'Transit': ["•  Metro - Women and Children's Center station on APM line"],
+ 'URL': ['https://www.wework.cn/building/yuexiujinrong?lang=en-us'],
+ 'postalCode': ['']}
+2021-12-03 14:07:55,650 DEBUG: Crawled (200) <GET https://api.wework.cn/api/v2/buildings/wuningnanlu> (referer: https://www.wework.cn/)
+2021-12-03 14:07:55,694 DEBUG: Crawled (200) <GET https://api.wework.hk/api/v2/buildings/yf-life-tower> (referer: https://www.wework.cn/)
+2021-12-03 14:07:55,772 DEBUG: Scraped from <200 https://api.wework.cn/api/v2/buildings/wuningnanlu>
+{'Address': ["1 South Wuning Road Jing'an District Shanghai"],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference Rooms\n'
+               '•  Enhanced cleaning services\n'
+               '•  High-speed Wi-Fi\n'
+               '•  Meeting rooms\n'
+               '•  Micro-Roasted Coffee\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional & social events\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['CN'],
+ 'Latitude': ['31.226454'],
+ 'Locality': ['Shanghai'],
+ 'Longitude': ['121.436957'],
+ 'Name': ['Yueshang Plaza'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': [''],
+ 'Transit': ['•  Metro - Jiangsu Road station on Line 11\n'
+             "•  Metro - Jing'an Temple station on Line 2"],
+ 'URL': ['https://www.wework.cn/building/wuningnanlu?lang=en-us'],
+ 'postalCode': ['']}
+2021-12-03 14:07:55,813 DEBUG: Scraped from <200 https://api.wework.hk/api/v2/buildings/yf-life-tower>
+{'Address': ['10/F, YF Life Tower, 33 Lockhart Road Wanchai Hong Kong'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference Rooms\n'
+               '•  Enhanced cleaning services\n'
+               '•  Hands-free dispensers\n'
+               '•  High-speed Wi-Fi\n'
+               '•  Meeting rooms\n'
+               '•  Micro-Roasted Coffee\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional & social events\n'
+               '•  Unique common areas'],
+ 'Country': ['HK'],
+ 'Latitude': ['22.275644'],
+ 'Locality': ['Hong Kong'],
+ 'Longitude': ['114.175049'],
+ 'Name': ['YF Life Tower'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': [''],
+ 'Transit': ['•  Metro - Wan Chai station on Island Line'],
+ 'URL': ['https://wework.hk/locations/yf-life-tower?lang=en-us'],
+ 'postalCode': ['']}
+2021-12-03 14:07:55,821 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/weesperstraat-61-105--amsterdam> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:55,996 DEBUG: Scraped from <200 https://www.wework.com/buildings/weesperstraat-61-105--amsterdam>
+{'Address': ['Weesperstraat 61-105 Amsterdam Netherlands 1018VN'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['NL'],
+ 'Latitude': ['52.3650429'],
+ 'Locality': ['Amsterdam'],
+ 'Longitude': ['4.9061374'],
+ 'Name': ['Weesperstraat 61-105'],
+ 'Rating': ['4.5'],
+ 'Reviews': ['42'],
+ 'Telephone': ['+31208081143'],
+ 'Transit': ['•  Bike - Storage available\n'
+             '•  Bus - Waterlooplein + Weesperplein\n'
+             '•  Ferry - Central Station\n'
+             '•  Freeway - Amsterdam Ring\n'
+             '•  Metro - Waterlooplein (Metro) + Weesperplein (Metro + Tram)\n'
+             '•  Parking - Q-park Weespersplein, located at First '
+             'Boerhaavestraat, 1091GM Amsterdam, NL.'],
+ 'URL': ['https://www.wework.com/buildings/weesperstraat-61-105--amsterdam'],
+ 'postalCode': ['1018VN']}
+2021-12-03 14:07:56,000 DEBUG: Crawled (200) <GET https://www.wework.cn/building/shijiemaoyidasha?lang=en-us> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:56,012 DEBUG: Crawled (200) <GET https://api.wework.cn/api/v2/buildings/xintiandixinli> (referer: https://www.wework.cn/)
+2021-12-03 14:07:56,144 DEBUG: Scraped from <200 https://api.wework.cn/api/v2/buildings/xintiandixinli>
+{'Address': ['3rd floor, No. 380 South Huangpu Rd, Huangpu District'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Conference Rooms\n'
+               '•  Enhanced cleaning services\n'
+               '•  High-speed Wi-Fi\n'
+               '•  Meeting rooms\n'
+               '•  Micro-Roasted Coffee\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional & social events\n'
+               '•  Service dogs permitted\n'
+               '•  Stocked kitchens\n'
+               '•  Unique common areas'],
+ 'Country': ['CN'],
+ 'Latitude': ['31.219452'],
+ 'Locality': ['Shanghai'],
+ 'Longitude': ['121.475212'],
+ 'Name': ['Xintiandi Xinli'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': [''],
+ 'Transit': ['•  Metro - Huangpi South Road station on Line 1\n'
+             '•  Metro - Xintiandi station on Line 10\n'
+             '•  Metro - Xintiandi station on Line 13'],
+ 'URL': ['https://www.wework.cn/building/xintiandixinli?lang=en-us'],
+ 'postalCode': ['']}
+2021-12-03 14:07:56,440 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/waterfront-plaza--sf-bay-area--CA> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:56,480 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/beianchangfeng?lang=en-us> from <GET https://www.wework.com/buildings/waterfront-park--shanghai--31>
+2021-12-03 14:07:56,591 DEBUG: Scraped from <200 https://www.wework.com/buildings/waterfront-plaza--sf-bay-area--CA>
+{'Address': ['50-60 Francisco Street San Francisco CA 94133'],
+ 'Amenities': ['•  Assembly hall\n'
+               '•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['37.8053295'],
+ 'Locality': ['San Francisco'],
+ 'Longitude': ['-122.4061057'],
+ 'Name': ['Waterfront Plaza'],
+ 'Rating': ['4.8'],
+ 'Reviews': ['25'],
+ 'Telephone': ['+14153267929'],
+ 'Transit': ['•  Bike - Ford GoBike Station (.4 miles away)\n'
+             '•  Bus - 8BX at Bay St & Midway St (4 minute walk), BART Shuttle '
+             '(onsite)\n'
+             '•  Freeway - I-80 (1.6 miles away)\n'
+             '•  Metro - Light Rail E and F at The Embarcadero & Sansome '
+             'Street (4 minute walk)\n'
+             '•  Parking - SP+ Parking (2 blocks away)'],
+ 'URL': ['https://www.wework.com/buildings/waterfront-plaza--sf-bay-area--CA'],
+ 'postalCode': ['94133']}
+2021-12-03 14:07:56,661 DEBUG: Crawled (200) <GET https://api.wework.cn/api/v2/buildings/shijiemaoyidasha> (referer: https://www.wework.cn/)
+2021-12-03 14:07:56,779 DEBUG: Scraped from <200 https://api.wework.cn/api/v2/buildings/shijiemaoyidasha>
+{'Address': ['World Trade Tower No. 500 Guangdong Road Shanghai'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference Rooms\n'
+               '•  Enhanced cleaning services\n'
+               '•  High-speed Wi-Fi\n'
+               '•  Meeting rooms\n'
+               '•  Micro-Roasted Coffee\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional & social events\n'
+               '•  Stocked kitchens\n'
+               '•  Unique common areas'],
+ 'Country': ['CN'],
+ 'Latitude': ['31.232571'],
+ 'Locality': ['Shanghai'],
+ 'Longitude': ['121.48191'],
+ 'Name': ['World Trade Tower'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': [''],
+ 'Transit': ['•  Metro - East Nanjing Road station on Line 10\n'
+             "•  Metro - People's Square station on Line 1\n"
+             "•  Metro - People's Square station on Line 2\n"
+             "•  Metro - People's Square station on Line 8\n"
+             '•  Metro - South Huangpi Road station on Line 2\n'
+             '•  Metro - Yuyuan station on Line 10'],
+ 'URL': ['https://www.wework.cn/building/shijiemaoyidasha?lang=en-us'],
+ 'postalCode': ['']}
+2021-12-03 14:07:57,055 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/wangjingjie?lang=en-us> from <GET https://www.wework.com/buildings/wangjing-international-business-center--beijing>
+2021-12-03 14:07:57,457 DEBUG: Crawled (200) <GET https://www.wework.cn/building/wonderful-world-commercial-plaza?lang=en-us> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:57,467 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/warschauer-platz-11-13--berlin> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:57,611 DEBUG: Scraped from <200 https://www.wework.com/buildings/warschauer-platz-11-13--berlin>
+{'Address': ['Warschauer Platz 11-13 Berlin BE 10245'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               "•  Mother's room\n"
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Screening room\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['DE'],
+ 'Latitude': ['52.5031148123416'],
+ 'Locality': ['Berlin'],
+ 'Longitude': ['13.4482738003135'],
+ 'Name': ['Warschauer Platz 11-13'],
+ 'Rating': ['4.9'],
+ 'Reviews': ['6'],
+ 'Telephone': ['+493030808409'],
+ 'Transit': ['•  Bus - Bus 300 - Stop: Berlin Warschauer Straße\n'
+             '•  Metro - S- and U-Bahn Warschauer Straße, Tram M10 S-Bahnhof '
+             'Warschauer Straße '],
+ 'URL': ['https://www.wework.com/buildings/warschauer-platz-11-13--berlin'],
+ 'postalCode': ['10245']}
+2021-12-03 14:07:57,713 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/qixinruanjian?lang=en-us> from <GET https://www.wework.com/buildings/viseen-shenzhen-business-park--shenzhen>
+2021-12-03 14:07:58,207 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/wallarkaden--cologne> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:58,351 DEBUG: Scraped from <200 https://www.wework.com/buildings/wallarkaden--cologne>
+{'Address': ['Rudolfplatz 7 Cologne Nordrhein-Westfahlen 50674'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Unique common areas'],
+ 'Country': ['DE'],
+ 'Latitude': ['50.9360701420335'],
+ 'Locality': ['Cologne'],
+ 'Longitude': ['6.94009968472458'],
+ 'Name': ['Wallarkaden'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+493030808409'],
+ 'Transit': ['•  Metro - Rudolfplatz (1 minute walk) | Friesenplatz (5 minute '
+             'walk) | Zülpicher Platz (5 minute walk) | Barbarossaplatz (10 '
+             'minute walk)'],
+ 'URL': ['https://www.wework.com/buildings/wallarkaden--cologne'],
+ 'postalCode': ['50674']}
+2021-12-03 14:07:58,427 DEBUG: Crawled (200) <GET https://api.wework.cn/api/v2/buildings/wonderful-world-commercial-plaza> (referer: https://www.wework.cn/)
+2021-12-03 14:07:58,544 DEBUG: Scraped from <200 https://api.wework.cn/api/v2/buildings/wonderful-world-commercial-plaza>
+{'Address': ['38 East 3rd Ring Road Beijing 100026'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference Rooms\n'
+               '•  Enhanced cleaning services\n'
+               '•  High-speed Wi-Fi\n'
+               '•  Meeting rooms\n'
+               '•  Micro-Roasted Coffee\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional & social events\n'
+               '•  Stocked kitchens\n'
+               '•  Unique common areas'],
+ 'Country': ['CN'],
+ 'Latitude': ['39.928146'],
+ 'Locality': ['Beijing'],
+ 'Longitude': ['116.476202'],
+ 'Name': ['Wonderful World Commercial Plaza'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': [''],
+ 'Transit': ['•  Metro - Hujialou station on Line 10\n'
+             '•  Metro - Hujialou station on Line 6'],
+ 'URL': ['https://www.wework.cn/building/wonderful-world-commercial-plaza?lang=en-us'],
+ 'postalCode': ['']}
+2021-12-03 14:07:58,731 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/vi-john-tower--gurugram--HR> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:58,871 DEBUG: Scraped from <200 https://www.wework.com/buildings/vi-john-tower--gurugram--HR>
+{'Address': ["Vi-John Tower 393, Phase 3 Udyog' Vihar Gurugram HR 122016"],
+ 'Amenities': ['•  Barista\n'
+               '•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['IN'],
+ 'Latitude': ['28.505637'],
+ 'Locality': ['Gurugram'],
+ 'Longitude': ['77.0890011'],
+ 'Name': ['Vi-John Tower'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+911800123365365'],
+ 'Transit': ['•  Bus - 112D, Uttam Nagar Terminal Buses at Udgoy Vihar Pase '
+             '2/3 Bus Station (4 minute walk)\n'
+             '•  Metro - Rapid Metro at Indusind Bank Cyber City Metro Station '
+             '(7 minute drive)'],
+ 'URL': ['https://www.wework.com/buildings/vi-john-tower--gurugram--HR'],
+ 'postalCode': ['122016']}
+2021-12-03 14:07:59,158 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/vijay-diamond--mumbai> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:59,306 DEBUG: Scraped from <200 https://www.wework.com/buildings/vijay-diamond--mumbai>
+{'Address': ['No. A3&B2, B Cross Road Marol Industrial Area, MIDC,Andheri '
+             '(East) Mumbai Maharashtra 400093'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Honesty market\n'
+               "•  Mother's room\n"
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['IN'],
+ 'Latitude': ['19.1174082'],
+ 'Locality': ['Mumbai'],
+ 'Longitude': ['72.8693249'],
+ 'Name': ['VIjay Diamond'],
+ 'Rating': ['4.6'],
+ 'Reviews': ['39'],
+ 'Telephone': ['+911800123365365'],
+ 'Transit': ['•  Bus - MIDC Bus Stop (2 minute walk) '],
+ 'URL': ['https://www.wework.com/buildings/vijay-diamond--mumbai'],
+ 'postalCode': ['400093']}
+2021-12-03 14:07:59,310 DEBUG: Crawled (200) <GET https://www.wework.cn/building/weihailu?lang=en-us> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:59,507 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/victory-plaza--dallas-fort-worth--TX> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:07:59,661 DEBUG: Scraped from <200 https://www.wework.com/buildings/victory-plaza--dallas-fort-worth--TX>
+{'Address': ['3090 Nowitzki Way Suite 300 Dallas TX 75219'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['US'],
+ 'Latitude': ['32.7892819'],
+ 'Locality': ['Dallas'],
+ 'Longitude': ['-96.8098672'],
+ 'Name': ['Victory Plaza'],
+ 'Rating': ['5.0'],
+ 'Reviews': ['1'],
+ 'Telephone': ['+19724743687'],
+ 'Transit': ['•  Bus - 749 at Victory @ High Market S-NS (1 block away)\n'
+             '•  Freeway - Stemmons Fwy (1 block away)\n'
+             '•  Metro - TRE, Green, Orange rail at Victory Station (1 block '
+             'away)\n'
+             '•  Parking - Victory Park Tower Garage (1 block away)'],
+ 'URL': ['https://www.wework.com/buildings/victory-plaza--dallas-fort-worth--TX'],
+ 'postalCode': ['75219']}
+2021-12-03 14:07:59,728 DEBUG: Crawled (200) <GET https://api.wework.cn/api/v2/buildings/weihailu> (referer: https://www.wework.cn/)
+2021-12-03 14:07:59,859 DEBUG: Scraped from <200 https://api.wework.cn/api/v2/buildings/weihailu>
+{'Address': ["696 Weihai Road Jing'an District Shanghai"],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Conference Rooms\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  High-speed Wi-Fi\n'
+               '•  Meeting rooms\n'
+               '•  Micro-Roasted Coffee\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional & social events\n'
+               '•  Showers\n'
+               '•  Unique common areas'],
+ 'Country': ['CN'],
+ 'Latitude': ['31.226396'],
+ 'Locality': ['Shanghai'],
+ 'Longitude': ['121.458272'],
+ 'Name': ['696 Weihai Lu'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': [''],
+ 'Transit': ['•  Metro - West Nanjing Road  station on Line 12\n'
+             '•  Metro - West Nanjing Road station on Line 13\n'
+             '•  Metro - West Nanjing Road station on Line 2'],
+ 'URL': ['https://www.wework.cn/building/weihailu?lang=en-us'],
+ 'postalCode': ['']}
+2021-12-03 14:08:00,129 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/via-vittor-pisani-15--milan> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:00,281 DEBUG: Scraped from <200 https://www.wework.com/buildings/via-vittor-pisani-15--milan>
+{'Address': ['Via Vittor Pisani, 15 Milan MI 20124'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['IT'],
+ 'Latitude': ['45.4827498'],
+ 'Locality': ['Milan'],
+ 'Longitude': ['9.1983674'],
+ 'Name': ['Via Vittor Pisani, 15'],
+ 'Rating': ['4.8'],
+ 'Reviews': ['4'],
+ 'Telephone': ['+390282957892'],
+ 'Transit': ['•  Bike - BikeMi station across the street from building on Via '
+             'Vittor Pisani\n'
+             '•  Metro - 2, 3 at Centrale FS Subway Station (4 minute walk) | '
+             '9, 10 at Via Filzi Via Pirelli Light Rail Station (1 minute '
+             'walk)'],
+ 'URL': ['https://www.wework.com/buildings/via-vittor-pisani-15--milan'],
+ 'postalCode': ['20124']}
+2021-12-03 14:08:00,563 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/via-san-marco-21--milan> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:00,705 DEBUG: Scraped from <200 https://www.wework.com/buildings/via-san-marco-21--milan>
+{'Address': ['21 Via San Marco Milan MI 20121'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               '•  Materials library\n'
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['IT'],
+ 'Latitude': ['45.4756126'],
+ 'Locality': ['Milan'],
+ 'Longitude': ['9.1882538'],
+ 'Name': ['Via San Marco 21'],
+ 'Rating': ['4.6'],
+ 'Reviews': ['7'],
+ 'Telephone': ['+390282957892'],
+ 'Transit': ['•  Bus - 43, 94 Buses at P.za Mirabello Bus Station (2 minute '
+             'walk) | 43, 94 Buses at Moscova Bus Station (2 minute walk)\n'
+             '•  Metro - 2 Subway at Moscova Subway Station (6 minute walk) '],
+ 'URL': ['https://www.wework.com/buildings/via-san-marco-21--milan'],
+ 'postalCode': ['20121']}
+2021-12-03 14:08:00,719 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/via-meravigli-2--milan> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:00,855 DEBUG: Scraped from <200 https://www.wework.com/buildings/via-meravigli-2--milan>
+{'Address': ['Via Meravigli, 2 Milan MI 20123'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['IT'],
+ 'Latitude': ['45.4661224'],
+ 'Locality': ['Milan'],
+ 'Longitude': ['9.18440050000004'],
+ 'Name': ['Via Meravigli, 2'],
+ 'Rating': ['5.0'],
+ 'Reviews': ['0'],
+ 'Telephone': ['+390282957892'],
+ 'Transit': ['•  Bus - Tram 1, 2, 12, 14 at Cardusio Station (2 minute walk) \n'
+             '•  Metro - Line 1 at Cardusio Station (2 minute walk) '],
+ 'URL': ['https://www.wework.com/buildings/via-meravigli-2--milan'],
+ 'postalCode': ['20123']}
+2021-12-03 14:08:01,068 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/via-giuseppe-mazzini-9--milan> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:01,225 DEBUG: Scraped from <200 https://www.wework.com/buildings/via-giuseppe-mazzini-9--milan>
+{'Address': ['Via Giuseppe Mazzini 9 Milan MI 20123'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['IT'],
+ 'Latitude': ['45.4622604'],
+ 'Locality': ['Milan'],
+ 'Longitude': ['9.1886157'],
+ 'Name': ['Via Giuseppe Mazzini, 9'],
+ 'Rating': ['4.7'],
+ 'Reviews': ['4'],
+ 'Telephone': ['+390282957892'],
+ 'Transit': ['•  Metro - M1, M3 at Duomo |  M3 at Missori'],
+ 'URL': ['https://www.wework.com/buildings/via-giuseppe-mazzini-9--milan'],
+ 'postalCode': ['20123']}
+2021-12-03 14:08:01,432 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/via-filippo-turati-4--milan> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:01,575 DEBUG: Scraped from <200 https://www.wework.com/buildings/via-filippo-turati-4--milan>
+{'Address': ['4 Via Filippo Turati Milan Lombardia 20121'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['IT'],
+ 'Latitude': ['45.473211'],
+ 'Locality': ['Milan'],
+ 'Longitude': ['9.19516539999995'],
+ 'Name': ['Via Filippo Turati, 4'],
+ 'Rating': ['5.0'],
+ 'Reviews': ['0'],
+ 'Telephone': ['+390282957892'],
+ 'Transit': ['•  Metro - Line 3 at Turati Station (2 minute walk) | Line 1 at '
+             'Palestro (8 minute walk)'],
+ 'URL': ['https://www.wework.com/buildings/via-filippo-turati-4--milan'],
+ 'postalCode': ['20121']}
+2021-12-03 14:08:01,579 DEBUG: Crawled (200) <GET https://www.wework.cn/building/beianchangfeng?lang=en-us> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:01,931 DEBUG: Crawled (200) <GET https://www.wework.cn/building/wangjingjie?lang=en-us> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:02,053 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/vaswani-chambers--mumbai> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:02,157 DEBUG: Crawled (200) <GET https://api.wework.cn/api/v2/buildings/beianchangfeng> (referer: https://www.wework.cn/)
+2021-12-03 14:08:02,201 DEBUG: Scraped from <200 https://www.wework.com/buildings/vaswani-chambers--mumbai>
+{'Address': ['1st floor, 264-265, Dr. Annie Besant Road, Worli Mumbai MH '
+             '400030'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Honesty market\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['IN'],
+ 'Latitude': ['19.012'],
+ 'Locality': ['Mumbai'],
+ 'Longitude': ['72.821335'],
+ 'Name': ['Vaswani Chambers'],
+ 'Rating': ['4.0'],
+ 'Reviews': ['20'],
+ 'Telephone': ['+911800123365365'],
+ 'Transit': ['•  Bus - Passport Office Bus Stop (5 minute walk)\n'
+             '•  Metro -  Elphinstone & Lower Parel Railways Stations (10 '
+             'minute drive)'],
+ 'URL': ['https://www.wework.com/buildings/vaswani-chambers--mumbai'],
+ 'postalCode': ['400030']}
+2021-12-03 14:08:02,277 DEBUG: Scraped from <200 https://api.wework.cn/api/v2/buildings/beianchangfeng>
+{'Address': ['Building E, 12/F, Waterfront Park, Lane 168, Da Du He Rd, Putuo '
+             'District Shanghai 200062'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference Rooms\n'
+               '•  Enhanced cleaning services\n'
+               '•  High-speed Wi-Fi\n'
+               '•  Meeting rooms\n'
+               '•  Micro-Roasted Coffee\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional & social events\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['CN'],
+ 'Latitude': ['31.219487'],
+ 'Locality': ['Shanghai'],
+ 'Longitude': ['121.399715'],
+ 'Name': ['Waterfront Park'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': [''],
+ 'Transit': ['•  Metro - Changfeng Park station on Line 15'],
+ 'URL': ['https://www.wework.cn/building/beianchangfeng?lang=en-us'],
+ 'postalCode': ['']}
+2021-12-03 14:08:02,295 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/varsovia--mexico-city--DIF> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:02,447 DEBUG: Scraped from <200 https://www.wework.com/buildings/varsovia--mexico-city--DIF>
+{'Address': ['Varsovia 36 Colonia Juárez Ciudad de México 06600'],
+ 'Amenities': ['•  Barista\n'
+               '•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['MX'],
+ 'Latitude': ['19.4244649'],
+ 'Locality': ['Ciudad de México'],
+ 'Longitude': ['-99.169962417'],
+ 'Name': ['Varsovia '],
+ 'Rating': ['4.5'],
+ 'Reviews': ['40'],
+ 'Telephone': ['+525547707728'],
+ 'Transit': ['•  Bike - Storage available. There is also a EcoBici station 2 '
+             'blocks away\n'
+             '•  Bus - Avenida Chapultepec - Varsovia, Avenida Paseo De La '
+             'Reforma - Varsovia, Eje 2 Poniente Florencia - Hamburgo\n'
+             "•  Freeway - Two blocks from Mexico City's monument to El Ángel "
+             'de la Independencia, on Paseo de la Reforma\n'
+             '•  Metro - Sevilla metro station is 3 blocks away\n'
+             '•  Parking - Parking within the building (MEX$1,700)'],
+ 'URL': ['https://www.wework.com/buildings/varsovia--mexico-city--DIF'],
+ 'postalCode': ['06600']}
+2021-12-03 14:08:02,582 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/vaishnavi-signature--bengaluru--Karnataka> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:02,724 DEBUG: Scraped from <200 https://www.wework.com/buildings/vaishnavi-signature--bengaluru--Karnataka>
+{'Address': ['No. 78/9, Outer Ring Road, Bellandur Village Varthur Hobli '
+             'Bengaluru Karnataka 560103'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Fitness center\n'
+               '•  Food hall \n'
+               '•  Honesty market\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['IN'],
+ 'Latitude': ['12.925505'],
+ 'Locality': ['Bengaluru'],
+ 'Longitude': ['77.6726626'],
+ 'Name': ['Vaishnavi Signature'],
+ 'Rating': ['4.5'],
+ 'Reviews': ['31'],
+ 'Telephone': ['+911800123365365'],
+ 'Transit': ['•  Bus - Bellenduru Bus Stop (2 minute walk)'],
+ 'URL': ['https://www.wework.com/buildings/vaishnavi-signature--bengaluru--Karnataka'],
+ 'postalCode': ['560103']}
+2021-12-03 14:08:02,847 DEBUG: Crawled (200) <GET https://www.wework.cn/building/qixinruanjian?lang=en-us> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:02,973 INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2021-12-03 14:08:02,974 DEBUG: Crawled (200) <GET https://api.wework.cn/api/v2/buildings/wangjingjie> (referer: https://www.wework.cn/)
+2021-12-03 14:08:02,978 INFO: Closing spider (shutdown)
+2021-12-03 14:08:03,098 DEBUG: Scraped from <200 https://api.wework.cn/api/v2/buildings/wangjingjie>
+{'Address': ['9 Wangjing Jie, Chaoyang District Beijing'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference Rooms\n'
+               '•  Enhanced cleaning services\n'
+               '•  High-speed Wi-Fi\n'
+               '•  Meeting rooms\n'
+               '•  Micro-Roasted Coffee\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional & social events\n'
+               '•  Showers\n'
+               '•  Unique common areas'],
+ 'Country': ['CN'],
+ 'Latitude': ['39.989643'],
+ 'Locality': ['Beijing'],
+ 'Longitude': ['116.482559'],
+ 'Name': ['Wangjing International Business Center'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': [''],
+ 'Transit': ['•  Metro - Wangjing South station on Line 14'],
+ 'URL': ['https://www.wework.cn/building/wangjingjie?lang=en-us'],
+ 'postalCode': ['']}
+2021-12-03 14:08:03,295 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/urban-escape--stockholm> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:03,438 DEBUG: Scraped from <200 https://www.wework.com/buildings/urban-escape--stockholm>
+{'Address': ['Malmskillnadsgatan 32, Stockholms Stockholm 111 51'],
+ 'Amenities': ['•  Barista\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Fitness center\n'
+               '•  Mail & package handling\n'
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['SE'],
+ 'Latitude': ['59.3322619'],
+ 'Locality': ['Stockholm '],
+ 'Longitude': ['18.0666805'],
+ 'Name': ['Urban Escape'],
+ 'Rating': ['4.4'],
+ 'Reviews': ['12'],
+ 'Telephone': ['+46850543082'],
+ 'Transit': ['•  Metro - Kungsträdgården (5 minute walk) | T-Centralen (7 '
+             'minute walk) | Sergels Torg (8 minute walk)'],
+ 'URL': ['https://www.wework.com/buildings/urban-escape--stockholm'],
+ 'postalCode': ['111 51']}
+2021-12-03 14:08:03,442 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/shenyeshangcheng?lang=en-us> from <GET https://www.wework.com/buildings/upperhills-loft--shenzhen>
+2021-12-03 14:08:03,487 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/uptown-bonifacio-tower-three--manila> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:03,629 DEBUG: Scraped from <200 https://www.wework.com/buildings/uptown-bonifacio-tower-three--manila>
+{'Address': ['36th Street Corner & 11th Avenue Manila PHL-00 1634'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['PH'],
+ 'Latitude': ['14.5564718'],
+ 'Locality': ['Manila'],
+ 'Longitude': ['121.0551764'],
+ 'Name': ['Uptown Bonifacio Tower Three'],
+ 'Rating': ['4.2'],
+ 'Reviews': ['9'],
+ 'Telephone': ['+63285488260'],
+ 'Transit': ['•  Parking - Uptown Parade Parking Lot on site'],
+ 'URL': ['https://www.wework.com/buildings/uptown-bonifacio-tower-three--manila'],
+ 'postalCode': ['1634']}
+2021-12-03 14:08:04,029 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/university-park--austin--TX> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:04,172 DEBUG: Scraped from <200 https://www.wework.com/buildings/university-park--austin--TX>
+{'Address': ['3300 N Interstate 35 Suite 700 Austin TX 78705'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Electric vehicle charging stations\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Fitness center\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['30.2912379'],
+ 'Locality': ['Austin'],
+ 'Longitude': ['-97.7227807'],
+ 'Name': ['University Park'],
+ 'Rating': ['4.6'],
+ 'Reviews': ['12'],
+ 'Telephone': ['+15122538370'],
+ 'Transit': ['•  Bike - Storage available\n'
+             '•  Bus - 3409 Red River/Harris\n'
+             '•  Freeway - I-35\n'
+             '•  Parking - Parking Garage available'],
+ 'URL': ['https://www.wework.com/buildings/university-park--austin--TX'],
+ 'postalCode': ['78705']}
+2021-12-03 14:08:04,479 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/ulitsa-timura-frunze-11--moscow> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:04,624 DEBUG: Scraped from <200 https://www.wework.com/buildings/ulitsa-timura-frunze-11--moscow>
+{'Address': ['11 Ulitsa Timura Frunze Moscow MOS 119021'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['RU'],
+ 'Latitude': ['55.733643'],
+ 'Locality': ['Moscow'],
+ 'Longitude': ['37.589839'],
+ 'Name': ['Ulitsa Timura Frunze, 11'],
+ 'Rating': ['5.0'],
+ 'Reviews': ['3'],
+ 'Telephone': ['+74951181605'],
+ 'Transit': ['•  Metro - Circle & Sokolnicheskaya lines at Park Kultury (5 '
+             'minute walk)'],
+ 'URL': ['https://www.wework.com/buildings/ulitsa-timura-frunze-11--moscow'],
+ 'postalCode': ['119021']}
+2021-12-03 14:08:04,982 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/ulitsa-bol-shaya-yakimanka-26--moscow> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:05,119 DEBUG: Scraped from <200 https://www.wework.com/buildings/ulitsa-bol-shaya-yakimanka-26--moscow>
+{'Address': ["26 Ulitsa Bol'shaya Yakimanka Moscow MOS 119180"],
+ 'Amenities': ['•  Barista\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['RU'],
+ 'Latitude': ['55.735839'],
+ 'Locality': ['Moscow'],
+ 'Longitude': ['37.612551'],
+ 'Name': ["Ulitsa Bol'shaya Yakimanka 26"],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+74951181605'],
+ 'Transit': ["•  Metro - Polyanka Metro Station (5 minute walk) | Oktybr'skaya "
+             'Metro Station (7 minute walk)'],
+ 'URL': ['https://www.wework.com/buildings/ulitsa-bol-shaya-yakimanka-26--moscow'],
+ 'postalCode': ['119180']}
+2021-12-03 14:08:05,135 DEBUG: Redirecting (301) to <GET https://wework.hk/en-US/locations/two-harbour-square> from <GET https://www.wework.com/buildings/two-harbour-square--hong-kong>
+2021-12-03 14:08:05,198 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/two-summerlin--las-vegas> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:05,345 DEBUG: Scraped from <200 https://www.wework.com/buildings/two-summerlin--las-vegas>
+{'Address': ['10845 Griffith Peak Drive Las Vegas NV 89135'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  WeMRKT\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['36.1558312'],
+ 'Locality': ['Las Vegas'],
+ 'Longitude': ['-115.3315736'],
+ 'Name': ['Two Summerlin'],
+ 'Rating': ['4.3'],
+ 'Reviews': ['14'],
+ 'Telephone': ['+17022911538'],
+ 'Transit': ['•  Bus - 206 Bus at Pavilion Center @ Griffith Peak (N) Stop (3 '
+             'min walk)\n'
+             '•  Freeway - 215 Las Vegas Beltway (7 min drive) '],
+ 'URL': ['https://www.wework.com/buildings/two-summerlin--las-vegas'],
+ 'postalCode': ['89135']}
+2021-12-03 14:08:05,578 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/university-of-maryland--college-park-md--MD> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:05,725 DEBUG: Scraped from <200 https://www.wework.com/buildings/university-of-maryland--college-park-md--MD>
+{'Address': ['7761 Diamondback Drive College Park MD 20742'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Electric vehicle charging stations\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Honesty market\n'
+               '•  Mail & package handling\n'
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas'],
+ 'Country': ['US'],
+ 'Latitude': ['38.9858509'],
+ 'Locality': ['College Park'],
+ 'Longitude': ['-76.934782'],
+ 'Name': ['University of Maryland'],
+ 'Rating': ['5.0'],
+ 'Reviews': ['7'],
+ 'Telephone': ['+13012000994'],
+ 'Transit': ['•  Bus - 17, 83, 86 bus lines at Baltimore Ave & Rossborough Ln\n'
+             '•  Freeway - MD-193 (1 mile away)\n'
+             '•  Parking - Several parking options nearby (K1, K2, 16b)'],
+ 'URL': ['https://www.wework.com/buildings/university-of-maryland--college-park-md--MD'],
+ 'postalCode': ['20742']}
+2021-12-03 14:08:05,826 DEBUG: Redirecting (301) to <GET https://www.wework.cn/building/trinity-place?lang=en-us> from <GET https://www.wework.com/buildings/trinity-place--shanghai--31>
+2021-12-03 14:08:05,837 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/two-horizon-center--gurugram--HR> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:05,994 DEBUG: Scraped from <200 https://www.wework.com/buildings/two-horizon-center--gurugram--HR>
+{'Address': ['5th Floor, DLF Two Horizon Centre DLF Phase 5 Gurugram HR '
+             '122002'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Electric vehicle charging stations\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Food hall \n'
+               '•  Honesty market\n'
+               '•  Karaoke Room\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Showers\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['IN'],
+ 'Latitude': ['28.4510685'],
+ 'Locality': ['Gurugram'],
+ 'Longitude': ['77.0964407'],
+ 'Name': ['Two Horizon Center'],
+ 'Rating': ['4.8'],
+ 'Reviews': ['28'],
+ 'Telephone': ['+911800123365365'],
+ 'Transit': ['•  Metro - Sector 42-42 Metro Station (10 minute walk)'],
+ 'URL': ['https://www.wework.com/buildings/two-horizon-center--gurugram--HR'],
+ 'postalCode': ['122002']}
+2021-12-03 14:08:06,315 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/two-embarcadero-center--sf-bay-area--CA> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:06,457 DEBUG: Scraped from <200 https://www.wework.com/buildings/two-embarcadero-center--sf-bay-area--CA>
+{'Address': ['2 Embarcadero Center 8th Floor San Francisco CA 94111'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Electric vehicle charging stations\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Fitness center\n'
+               '•  Honesty market\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['37.7947881'],
+ 'Locality': ['San Francisco'],
+ 'Longitude': ['-122.3984101'],
+ 'Name': ['Two Embarcadero Center'],
+ 'Rating': ['4.6'],
+ 'Reviews': ['36'],
+ 'Telephone': ['+16502044785'],
+ 'Transit': ['•  Freeway - 80 Freeway\n•  Metro - BART, Ferry, Muni'],
+ 'URL': ['https://www.wework.com/buildings/two-embarcadero-center--sf-bay-area--CA'],
+ 'postalCode': ['94111']}
+2021-12-03 14:08:06,896 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/triangle-building--denver--CO> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:06,905 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/town-square--las-vegas> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:07,071 DEBUG: Scraped from <200 https://www.wework.com/buildings/triangle-building--denver--CO>
+{'Address': ['1550 Wewatta St Denver CO 80202'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               '•  Materials library\n'
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['39.7524264'],
+ 'Locality': ['Denver'],
+ 'Longitude': ['-105.0027386'],
+ 'Name': ['Triangle Building'],
+ 'Rating': ['4.5'],
+ 'Reviews': ['41'],
+ 'Telephone': ['+17207593045'],
+ 'Transit': ['•  Bike - Storage available\n'
+             '•  Bus - Union Station\n'
+             '•  Freeway - Speer Blvd, I25\n'
+             '•  Metro - Union Station: A, B, C, D, E, F, H, W\n'
+             '•  Parking - On-site parking ($12/hour, $20/day or $225/month)'],
+ 'URL': ['https://www.wework.com/buildings/triangle-building--denver--CO'],
+ 'postalCode': ['80202']}
+2021-12-03 14:08:07,116 DEBUG: Scraped from <200 https://www.wework.com/buildings/town-square--las-vegas>
+{'Address': ['6543 South Las Vegas Boulevard Las Vegas NV 89119'],
+ 'Amenities': ['•  Bike storage\n'
+               '•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Recreational games\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['36.0685565'],
+ 'Locality': ['Las Vegas'],
+ 'Longitude': ['-115.1782599'],
+ 'Name': ['Town Square'],
+ 'Rating': ['No ratings'],
+ 'Reviews': ['No reviews'],
+ 'Telephone': ['+17022138299'],
+ 'Transit': ['•  Freeway - I-215 and I-15N Freeways (0.5mi)'],
+ 'URL': ['https://www.wework.com/buildings/town-square--las-vegas'],
+ 'postalCode': ['89119']}
+2021-12-03 14:08:07,563 DEBUG: Crawled (200) <GET https://www.wework.com/buildings/tower-place-100--atlanta--GA> (referer: https://www.wework.com/sitemap.xml)
+2021-12-03 14:08:07,713 DEBUG: Scraped from <200 https://www.wework.com/buildings/tower-place-100--atlanta--GA>
+{'Address': ['3340 Peachtree Rd NE #1010 Atlanta GA 30326'],
+ 'Amenities': ['•  Business-class printers\n'
+               '•  Complimentary refreshments\n'
+               '•  Conference rooms\n'
+               '•  Dog friendly\n'
+               '•  Enhanced HVAC standards\n'
+               '•  Enhanced cleaning services\n'
+               '•  Espresso bar\n'
+               '•  Event space\n'
+               '•  Mail & package handling\n'
+               "•  Mother's room\n"
+               '•  Natural light\n'
+               '•  Onsite staff\n'
+               '•  Outdoor space\n'
+               '•  Parking\n'
+               '•  Phone booths\n'
+               '•  Professional events and programming\n'
+               '•  Stocked kitchens\n'
+               '•  Tech Services\n'
+               '•  Touch-free dispensers\n'
+               '•  Unique common areas\n'
+               '•  Wellness room'],
+ 'Country': ['US'],
+ 'Latitude': ['33.8474341'],
+ 'Locality': ['Atlanta'],
+ 'Longitude': ['-84.3709066'],
+ 'Name': ['Tower Place 100'],
+ 'Rating': ['4.5'],
+ 'Reviews': ['55'],
+ 'Telephone': ['+14044762781'],
+ 'Transit': ['•  Bus - 110\n'
+             '•  Freeway - Georgia 400, 85, 75;  Peachtree (Rt 141) and '
+             'Piedmont (Rt 237) Rds\n'
+             '•  Metro - Buckhead (MARTA)\n'
+             '•  Parking - Paid Parking Deck Nearby'],
+ 'URL': ['https://www.wework.com/buildings/tower-place-100--atlanta--GA'],
+ 'postalCode': ['30326']}
+2021-12-03 14:08:07,719 INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 35455,
+ 'downloader/request_count': 92,
+ 'downloader/request_method_count/GET': 92,
+ 'downloader/response_bytes': 3940490,
+ 'downloader/response_count': 92,
+ 'downloader/response_status_count/200': 77,
+ 'downloader/response_status_count/301': 13,
+ 'downloader/response_status_count/404': 2,
+ 'elapsed_time_seconds': 32.578017,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2021, 12, 3, 22, 8, 7, 718687),
+ 'item_scraped_count': 63,
+ 'log_count/DEBUG': 157,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 2,
+ 'response_received_count': 79,
+ 'robotstxt/request_count': 5,
+ 'robotstxt/response_count': 5,
+ 'robotstxt/response_status_count/200': 3,
+ 'robotstxt/response_status_count/404': 2,
+ 'scheduler/dequeued': 87,
+ 'scheduler/dequeued/memory': 87,
+ 'scheduler/enqueued': 767,
+ 'scheduler/enqueued/memory': 767,
+ 'start_time': datetime.datetime(2021, 12, 3, 22, 7, 35, 140670)}
+2021-12-03 14:08:07,720 INFO: Spider closed (shutdown)

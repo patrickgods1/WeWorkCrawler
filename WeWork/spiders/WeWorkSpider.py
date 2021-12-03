@@ -76,7 +76,7 @@ class scrapeWeWork(SitemapSpider):
         
         transportationList = set()
         for li in response.css('li.transportation'):
-            transportType = li.css('img::attr(alt)').extract_first().replace(' icon', '').capitalize()
+            transportType = li.css('span::attr(class)').extract_first().replace('icon icon-', '').capitalize()
             if transportType:
                 description = li.css('div.transportation-description::text').extract_first()
                 transportationList.add(f'•  {transportType} - {description}')
