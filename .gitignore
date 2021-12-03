@@ -9,3 +9,6 @@ __pycache__/
 *.txt
 *.csv
 *.log
+
+# Do not ignore
+!requirements.txt
