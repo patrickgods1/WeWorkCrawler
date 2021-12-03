@@ -2,13 +2,12 @@
 __pycache__/
 *.py[cod]
 
-# Ignore all JSON files
+# Ignore all document files
 *.JSON
-
-# Ignore all text files
 *.txt
 *.csv
 *.log
+*.xml
 
 # Do not ignore
 !requirements.txt
