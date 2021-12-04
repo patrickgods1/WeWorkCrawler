@@ -15,6 +15,10 @@ WeWorkCrawler is an application designed to scrape all WeWork locations for the 
 * Transit
 * URL
 
+## WeWork Locations Map
+The location and amenities inforation is mapped and visualized on Google Maps:
+![WeWorkNA](https://user-images.githubusercontent.com/60832092/144689076-b19c0a0c-1da0-42df-a026-817688e9c66b.PNG)
+
 ## Development
 These instructions will get you a copy of the project up and running on your local machine for development.
 
